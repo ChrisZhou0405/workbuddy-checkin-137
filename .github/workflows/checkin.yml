@@ -14,7 +14,7 @@ on:
   schedule:
     # GitHub Actions 使用 UTC 时间；北京时间 09:00 = UTC 01:00
     # ⚠️ 定时任务在整点前后可能有数分钟~数十分钟延迟，属 GitHub 正常现象
-    - cron: '0 1 * * *'
+    - cron: '0 2 * * *'
   # 支持在 Actions 页面手动触发（首次配置后建议先手动跑一次验证）
   workflow_dispatch:
     inputs:
